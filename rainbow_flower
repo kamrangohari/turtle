@@ -1,0 +1,91 @@
+#By Kamran Gohari
+#Use this code on the following website: https://www.pythonsandbox.com/turtle
+
+import turtle
+l = turtle.Turtle()
+l.speed(0) # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
+
+def square(size):
+  l.fd(size)
+  l.lt(90)
+  l.fd(size)
+  l.lt(90)
+  l.fd(size)
+  l.lt(90)
+  l.fd(size)
+  l.lt(90)
+
+l.color("blue")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)
+  square(10)
+
+l.up()  
+l.rt(120)
+l.fd(50)
+l.down()
+
+l.color("orange")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)
+  square(10)
+  
+l.up()  
+l.rt(120)
+l.fd(50)
+l.down()
+  
+l.color("green")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)
+  square(10)  
+  
+l.up()  
+l.rt(120)
+l.fd(50)
+l.down()
+  
+l.color("red")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)
+  square(10)  
+     
+l.up()  
+l.rt(120)
+l.fd(50)
+l.down()
+
+l.color("pink")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)  
+  square(10)
+  
+l.up()  
+l.rt(120)
+l.fd(50)
+l.down()
+  
+l.color("yellow")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)
+  square(10)  
+  
+l.up()  
+l.rt(120)
+l.fd(50)
+l.down()
+  
+l.color("purple")
+for step in range(0,100):
+  l.fd(5)
+  l.right(5)
+  square(10)  
+     
+  
+  
